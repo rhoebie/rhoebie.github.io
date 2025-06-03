@@ -7,6 +7,9 @@ import websiteDev from "./elements/WebsiteDev.png";
 import mobileDev from "./elements/MobileDev.png";
 import frontendDev from "./elements/FrontendDev.png";
 import backendDev from "./elements/BackendDev.png";
+import spotlightLeft from "./elements/SpotlightLeft.png";
+import spotlightRight from "./elements/SpotlightRight.png";
+import arrowTrendUp from "./elements/ArrowTrendUp.png";
 
 // Tech Stack Images
 import csharp from "./stacks/Csharp.png";
@@ -41,6 +44,9 @@ export {
     mobileDev,
     frontendDev,
     backendDev,
+    spotlightLeft,
+    spotlightRight,
+    arrowTrendUp,
 
     // Tech Stack Images
     csharp,
