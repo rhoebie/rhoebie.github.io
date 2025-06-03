@@ -1,13 +1,25 @@
 /* eslint-disable no-unused-vars */
 
+// elements 
+import heroBg from "./elements/HeroBg.png";
+import capstone from "./elements/Capstone.png";
+import websiteDev from "./elements/WebsiteDev.png";
+import mobileDev from "./elements/MobileDev.png";
+import frontendDev from "./elements/FrontendDev.png";
+import backendDev from "./elements/BackendDev.png";
+
 // Tech Stack Images
 import csharp from "./stacks/Csharp.png";
 import dart from "./stacks/Dart.png";
 import flutter from "./stacks/Flutter.png";
 import git from "./stacks/Git.png";
 import github from "./stacks/GitHub.png";
+import html from "./stacks/HTML5.png";
+import css from "./stacks/CSS3.png";
 import javascript from "./stacks/JavaScript.png";
+import typescript from "./stacks/Typescript.png";
 import laravel from "./stacks/Laravel.png";
+import figma from "./stacks/Figma.png";
 import materialui from "./stacks/MaterialUI.png";
 import netcore from "./stacks/NETCore.png";
 import php from "./stacks/PHP.png";
@@ -21,23 +33,27 @@ import vite from "./stacks/Vitejs.png";
 import bmc from "./companies/bmc.png";
 import cantier from "./companies/cantier.png";
 
-// Projects Images
-import dietary1 from "./projects/dietary/Dietary_1.png";
-import dietary2 from "./projects/dietary/Dietary_2.png";
-import dietary3 from "./projects/dietary/Dietary_3.png";
-import hr from "./projects/hr/HR.png";
-import payroll from "./projects/payroll/Payroll.png";
-import thesis1 from "./projects/thesis/Home.png";
-import thesis2 from "./projects/thesis/Feed.png";
-
 export {
+    // Elements
+    heroBg,
+    capstone,
+    websiteDev,
+    mobileDev,
+    frontendDev,
+    backendDev,
+
+    // Tech Stack Images
     csharp,
     dart,
     flutter,
     git,
     github,
+    html,
+    css,
     javascript,
+    typescript,
     laravel,
+    figma,
     materialui,
     netcore,
     php,
@@ -46,13 +62,8 @@ export {
     mysql,
     mssql,
     vite,
+
+    // Company Images
     bmc,
     cantier,
-    dietary1,
-    dietary2,
-    dietary3,
-    hr,
-    payroll,
-    thesis1,
-    thesis2
 };

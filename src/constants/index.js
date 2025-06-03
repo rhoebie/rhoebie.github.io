@@ -1,12 +1,20 @@
 /* eslint-disable no-unused-vars */
 import {
+    websiteDev,
+    mobileDev,
+    frontendDev,
+    backendDev,
     csharp,
     dart,
     flutter,
     git,
     github,
+    html,
+    css,
     javascript,
+    typescript,
     laravel,
+    figma,
     materialui,
     netcore,
     php,
@@ -38,26 +46,30 @@ export const navLinks = [
   },
 ];
 
-const services = [
+export const services = [
     {
         title: "Web Developer",
-        icon: '#',
+        icon: websiteDev,
+        techStack: [html, css, javascript, typescript, react, laravel, php, vite],
     },
     {
         title: "Mobile Developer",
-        icon: '#',
+        icon: mobileDev,
+        techStack: [dart, flutter],
     },
     {
         title: "Frontend Developer",
-        icon: '#',
+        icon: frontendDev,
+        techStack: [figma, dart, flutter, react, materialui, twcss, html, css, javascript, typescript],
     },
     {
         title: "Backend Developer",
-        icon: '#',
+        icon: backendDev,
+        techStack: [csharp, netcore, laravel, php, mysql, mssql],
     },
 ];
 
-const techStack = [
+export const techStack = [
     {
         name: "C#",
         icon: csharp,
@@ -120,26 +132,10 @@ const techStack = [
     }
 ];
 
-const experiences = [
-    {
-        title: "Full Stack Developer Intern",
-        company_name: "Bicutan Medical Center",
-        company_address: "Bicutan Medical Center, M. L. Quezon Avenue, Taguig, Metro Manila, Philippines",
-        company_website: "https://bicutanmed.com/home",
-        company_logo: bmc,
-        company_logoBg: "#ffffff",
-        date: "Jan 2024 - May 2024",
-        points: [
-            "Developed a payroll system from scratch to automate salary computation, improving efficiency for the finance department.",
-            "Assisted in building an HR management system to streamline employee records and administrative tasks.",
-            "Utilized Flutter to develop a responsive and user-friendly frontend, enhancing accessibility across devices.",
-            "Implemented Laravel for backend API development, ensuring secure and efficient data processing.",
-            "Collaborated with the team using Git for version control, maintaining code integrity and project organization."
-        ],
-    },
+export const experiences = [
     {
         title: "Junior Software Developer",
-        company_name: "Cantier",
+        company_name: "Cantier System Inc.",
         company_address: "7th Floor, Unit 705, Asian Star Building, Asean Drive corner Singapura Lane, Filinvest Corporate City, Alabang, Muntinlupa City, 1781 Philippines",
         company_website: "https://www.cantier.com/",
         company_logo: cantier,
@@ -151,6 +147,22 @@ const experiences = [
             "Built and optimized backend services with C# and ASP.NET, improving system reliability and efficiency.",
             "Tracked and managed assigned tasks using Azure DevOps, ensuring efficient workflow and timely project delivery.",
             "Collaborated with cross-functional teams to streamline development workflows and enhance product quality."
+        ],
+    },
+    {
+        title: "Software Developer Intern",
+        company_name: "Bicutan Medical Center Inc.",
+        company_address: "Bicutan Medical Center, M. L. Quezon Avenue, Taguig, Metro Manila, Philippines",
+        company_website: "https://bicutanmed.com/home",
+        company_logo: bmc,
+        company_logoBg: "#ffffff",
+        date: "Jan 2024 - May 2024",
+        points: [
+            "Developed a payroll system from scratch to automate salary computation, improving efficiency for the finance department.",
+            "Assisted in building an HR management system to streamline employee records and administrative tasks.",
+            "Utilized Flutter to develop a responsive and user-friendly frontend, enhancing accessibility across devices.",
+            "Implemented Laravel for backend API development, ensuring secure and efficient data processing.",
+            "Collaborated with the team using Git for version control, maintaining code integrity and project organization."
         ],
     }
 ];
