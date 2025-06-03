@@ -10,6 +10,12 @@ import backendDev from "./elements/BackendDev.png";
 import spotlightLeft from "./elements/SpotlightLeft.png";
 import spotlightRight from "./elements/SpotlightRight.png";
 import arrowTrendUp from "./elements/ArrowTrendUp.png";
+import staticImage from "./elements/StaticImage.png";
+import overlayColor from "./elements/OverlayColor.png";
+import tcuLogoMask from "./elements/TcuLogoMask.png";
+import linkedInIcon from "./elements/LinkedInIcon.png";
+import copyIcon from "./elements/CopyIcon.png";
+import overlayCodeImage from "./elements/OverlayImageCode.png";
 
 // Tech Stack Images
 import csharp from "./stacks/Csharp.png";
@@ -47,6 +53,12 @@ export {
     spotlightLeft,
     spotlightRight,
     arrowTrendUp,
+    staticImage,
+    overlayColor,
+    tcuLogoMask,
+    linkedInIcon,
+    copyIcon,
+    overlayCodeImage,
 
     // Tech Stack Images
     csharp,
