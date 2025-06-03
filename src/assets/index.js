@@ -10,6 +10,8 @@ import backendDev from "./elements/BackendDev.png";
 import spotlightLeft from "./elements/SpotlightLeft.png";
 import spotlightRight from "./elements/SpotlightRight.png";
 import arrowTrendUp from "./elements/ArrowTrendUp.png";
+import staticImage from "./elements/StaticImage.png";
+import overlayColor from "./elements/OverlayColor.png";
 
 // Tech Stack Images
 import csharp from "./stacks/Csharp.png";
@@ -47,6 +49,8 @@ export {
     spotlightLeft,
     spotlightRight,
     arrowTrendUp,
+    staticImage,
+    overlayColor,
 
     // Tech Stack Images
     csharp,

@@ -88,62 +88,77 @@ export const services = [
 export const techStack = [
     {
         name: "C#",
+        shade: "#68207a",
         icon: csharp,
     },
     {
         name: "Dart",
+        shade: "#00c5b3",
         icon: dart,
     },
     {
         name: "Flutter",
+        shade: "#3eb7d3",
         icon: flutter,
     },
     {
         name: "Git",
+        shade: "#f34e28",
         icon: git,
     },
     {
         name: "GitHub",
+        shade: "#ffffff",
         icon: github,
     },
     {
         name: "JavaScript",
+        shade: "#efdb4e",
         icon: javascript,
     },
     {
         name: "Laravel",
+        shade: "#f15240",
         icon: laravel,
     },
     {
         name: "Material UI",
+        shade: "#1c7eb7",
         icon: materialui,
     },
     {
         name: ".NET Core",
+        shade: "#623697",
         icon: netcore,
     },
     {
         name: "PHP",
+        shade: "#767ab3",
         icon: php,
     },
     {
         name: "React",
+        shade: "#50b0d3",
         icon: react,
     },
     {
         name: "Tailwind CSS",
+        shade: "#38bdf9",
         icon: twcss,
     },
     {
         name: "MySQL",
+        shade: "#ffffff",
         icon: mysql,
     },
     {
-        name: "MsSQL",
+        name: "MicrosoftSQL",
+        shade: "#ffffff",
         icon: mssql,
     },
     {
         name: "Vite.js",
+        shade: "#8f6dff",
         icon: vite,
     }
 ];
