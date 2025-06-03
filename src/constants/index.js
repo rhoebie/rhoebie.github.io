@@ -152,7 +152,7 @@ export const techStack = [
         icon: mysql,
     },
     {
-        name: "MicrosoftSQL",
+        name: "Microsoft SQL Server",
         shade: "#ffffff",
         icon: mssql,
     },
