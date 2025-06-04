@@ -28,38 +28,38 @@ import {
 } from "../assets";
 
 export const navLinks = [
-  {
-    id: "home",
-    title: "Home",
-  },
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "process",
-    title: "Process",
-  },
-  {
-    id: "project",
-    title: "Project",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "testimonials",
-    title: "Testimonials",
-  },
-  {
-    id: "services",
-    title: "Services",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+    {
+        id: "home",
+        title: "Home",
+    },
+    {
+        id: "about",
+        title: "About",
+    },
+    {
+        id: "process",
+        title: "Process",
+    },
+    {
+        id: "project",
+        title: "Project",
+    },
+    {
+        id: "work",
+        title: "Work",
+    },
+    {
+        id: "testimonials",
+        title: "Testimonials",
+    },
+    {
+        id: "services",
+        title: "Services",
+    },
+    {
+        id: "contact",
+        title: "Contact",
+    },
 ];
 
 export const services = [
@@ -84,6 +84,29 @@ export const services = [
         techStack: [csharp, netcore, laravel, php, mysql, mssql],
     },
 ];
+
+export const queueStack = [
+    {
+        name: "HTML",
+        shade: "#f34e28",
+        icon: html,
+    },
+    {
+        name: "CSS",
+        shade: "#1c7eb7",
+        icon: css,
+    },
+    {
+        name: "JavaScript",
+        shade: "#efdb4e",
+        icon: javascript,
+    },
+    {
+        name: "C#",
+        shade: "#68207a",
+        icon: csharp,
+    },
+]
 
 export const techStack = [
     {

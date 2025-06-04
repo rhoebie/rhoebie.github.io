@@ -47,9 +47,9 @@ const About = () => {
     const row3 = techStack.slice(10, 15);
 
     return (
-        <section id="about">
+        <section id="about" className="px-[150px]">
             <div className="flex flex-col items-center justify-center gap-10 mt-20">
-                <div className="flex flex-row items-center justify-center gap-10">
+                <div className="flex flex-row items-center justify-center gap-10 h-[465px]">
                     <Card
                         variant="one"
                         width="w-[643px]"

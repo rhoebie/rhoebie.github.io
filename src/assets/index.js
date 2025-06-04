@@ -16,6 +16,7 @@ import tcuLogoMask from "./elements/TcuLogoMask.png";
 import linkedInIcon from "./elements/LinkedInIcon.png";
 import copyIcon from "./elements/CopyIcon.png";
 import overlayCodeImage from "./elements/OverlayImageCode.png";
+import metalOverlay from "./elements/MetalOverlay.png";
 
 // Tech Stack Images
 import csharp from "./stacks/Csharp.png";
@@ -59,6 +60,7 @@ export {
     linkedInIcon,
     copyIcon,
     overlayCodeImage,
+    metalOverlay,
 
     // Tech Stack Images
     csharp,

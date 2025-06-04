@@ -2,8 +2,8 @@ import React from 'react';
 import { spotlightLeft, spotlightRight } from './assets';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
-import About from './components/sections/About';
 import { Toaster } from 'react-hot-toast';
+import { About, Process } from './components/sections';
 
 const App = () => {
   return (
@@ -30,8 +30,9 @@ const App = () => {
           <Hero />
         </div>
 
-        <div className="px-[150px] flex flex-col">
+        <div className="flex flex-col gap-[150px]">
           <About />
+          <Process />
         </div>
       </div>
     </>
