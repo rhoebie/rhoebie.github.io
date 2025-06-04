@@ -219,7 +219,7 @@ const About = () => {
 
                             <div className="p-[30px] relative z-10 flex flex-col justify-between">
                                 <div className="text-[#E1E1E1] text-[14px] font-normal">
-                                    Tech Stack
+                                    Education
                                 </div>
                                 <div className="text-white text-[24px] font-bold">
                                     I earned my bachelor’s degree from Taguig City University.
@@ -232,6 +232,17 @@ const About = () => {
                             height="h-full"
                             className="relative overflow-hidden"
                         >
+                            <img
+                                src={overlayColor}
+                                alt="Overlay"
+                                className="absolute left-[-150px] bottom-[-100px] z-0 pointer-events-none"
+                                style={{
+                                    width: "auto",
+                                    height: "auto",
+                                    transform: "rotate(90deg)",
+                                }}
+                            />
+
                             <div className="relative p-[25px] z-10 flex flex-col justify-between h-full">
                                 <div className="text-white text-[24px] font-bold">
                                     Let's start a project together
